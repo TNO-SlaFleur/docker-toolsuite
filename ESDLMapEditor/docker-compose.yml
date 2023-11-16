@@ -48,7 +48,7 @@ services:
       - panel_service.env
 
   esdl-validator:
-    image: mvrijlandt/nwn_esdl_validator:0.0.2
+    image: mvrijlandt/nwn_esdl_validator:0.0.3
     ports:
       - "5000:5000"
     environment:
